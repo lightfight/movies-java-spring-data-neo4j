@@ -24,6 +24,6 @@ public class MovieController {
 
     @GetMapping("/graph")
 	public Map<String, Object> graph(@RequestParam(value = "limit",required = false) Integer limit) {
-		return movieService.graph(limit == null ? 100 : limit);
+		return movieService.graph(limit == null ? 10 : limit);
 	}
 }
