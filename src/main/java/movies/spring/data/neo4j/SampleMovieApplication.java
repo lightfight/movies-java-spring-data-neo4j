@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @author Mark Angrish
  */
 @SpringBootApplication
-@EnableNeo4jRepositories("movies.spring.data.neo4j.repositories")
+//@EnableNeo4jRepositories("movies.spring.data.neo4j.repositories")
 public class SampleMovieApplication {
 
     public static void main(String[] args) {
